@@ -193,6 +193,7 @@ main {
 }
 .invisible {
     visibility: hidden;
+    overflow: hidden;
 }
 .price-title {
     font-weight: 600;

@@ -15,12 +15,12 @@ body{
     font-size: 30px;
     line-height: 24px;
     font-weight: 700;
-    margin: 23px 0 23px 118px;
+    margin: 23px 0 23px 115px;
 }
 #menu-top ul {
     display: flex;
     gap: 28px;
-    margin: 27px 117px 27px 0;
+    margin: 27px 115px 27px 0;
    
 }
 #menu-top ul li {
@@ -35,7 +35,7 @@ body{
 main {
     display:  flex;
     justify-content: flex-start;
-    margin: 52px 117px 0 118px;
+    margin: 52px 115px 0 115px;
     gap: 62px;
 }
 #products-grid {
@@ -94,14 +94,19 @@ main {
     font-weight: 600;
     margin: 0 12px 15px 15px;
 }
-.product-item ul li a {
+.product-item ul li button {
     text-decoration: none;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    padding-left: 0;
     font-size: 14px;
     font-weight: 500;
     color: #242424;
     margin: 0 0 20px 15px;
+    cursor: pointer;
 }
-.product-item ul li a:hover{
+.product-item ul li button:hover{
     color: #2E245E;
     text-decoration: underline;
 }
@@ -249,7 +254,7 @@ main {
 .cart-description {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: 15px 0 15px 0;
     height: 92px;
     width: 176px;
@@ -272,15 +277,19 @@ main {
     margin-bottom: 14px;
 }
 
-.cart-remove a{
+.cart-remove button{
     line-height: 24px;
     font-size: 14px;
     font-weight: 400;
     color: #242424;
     text-decoration: none;
+    border: none;
+    background-color: transparent;
+    padding-left: 0;
+    cursor: pointer;
     
 }
-.cart-remove a:hover {
+.cart-remove button:hover {
     text-decoration: underline;
     color: #333333;
 }

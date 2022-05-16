@@ -129,6 +129,7 @@ main {
     background-color: #2E245E;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 .shop-cart{
     width: 347px;

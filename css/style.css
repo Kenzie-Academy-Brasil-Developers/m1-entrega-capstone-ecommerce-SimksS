@@ -36,7 +36,7 @@ main {
     display:  flex;
     justify-content: flex-start;
     margin: 52px 115px 0 115px;
-    gap: 62px;
+    gap: 55px;
 }
 #products-grid {
     display: flex;
@@ -154,7 +154,7 @@ main {
 }
 .shop-cart-itens {
     background-color: #f5f5f5;
-    width: 347px;
+    width: 345px;
     box-sizing: content-box;
 }
 .shop-cart-itens h3 {

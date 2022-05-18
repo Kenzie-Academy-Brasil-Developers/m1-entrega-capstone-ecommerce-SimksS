@@ -1,6 +1,5 @@
 body{
     font-family: 'Inter', sans-serif;
-    width: 1603px; 
 }
 #menu-top{
     width: 100%;
@@ -15,12 +14,12 @@ body{
     font-size: 30px;
     line-height: 24px;
     font-weight: 700;
-    margin: 23px 0 23px 118px;
+    margin: 23px 0 23px 115px;
 }
 #menu-top ul {
     display: flex;
     gap: 28px;
-    margin: 27px 117px 27px 0;
+    margin: 27px 115px 27px 0;
    
 }
 #menu-top ul li {
@@ -35,8 +34,8 @@ body{
 main {
     display:  flex;
     justify-content: flex-start;
-    margin: 52px 117px 0 118px;
-    gap: 62px;
+    margin: 52px 115px 0 115px;
+    gap: 55px;
 }
 #products-grid {
     display: flex;
@@ -96,14 +95,15 @@ main {
 }
 .product-item ul li button {
     text-decoration: none;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    padding-left: 0;
     font-size: 14px;
     font-weight: 500;
     color: #242424;
     margin: 0 0 20px 15px;
     cursor: pointer;
-    background-color: transparent;
-    border: none;
-    padding: 0;
 }
 .product-item ul li button:hover{
     color: #2E245E;
@@ -133,6 +133,7 @@ main {
     background-color: #2E245E;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 .shop-cart{
     width: 347px;
@@ -151,9 +152,9 @@ main {
     padding: 13px 81px 13px 81px;  
 }
 .shop-cart-itens {
-    background-color: #f5f5f5 ;
-    width: 347px;
-
+    background-color: #f5f5f5;
+    width: 345px;
+    box-sizing: content-box;
 }
 .shop-cart-itens h3 {
     font-size: 22px;
@@ -214,6 +215,7 @@ main {
 .cart-itens {
     display: flex;
     max-height: 329px;
+    min-height: 214px;
      overflow-y: auto; 
 }
 .cart-itens::-webkit-scrollbar {
@@ -274,23 +276,18 @@ main {
     color: #2E245E;
     margin-bottom: 14px;
 }
-.cart-remove {
-    width: 114.14px;
-    height: 17.5px;
-}
 
 .cart-remove button{
-    line-height: 17.5px;
+    line-height: 24px;
     font-size: 14px;
     font-weight: 400;
     color: #242424;
     text-decoration: none;
-    cursor: pointer;
-    width: 114.14px;
     border: none;
     background-color: transparent;
+    padding-left: 0;
     cursor: pointer;
-    padding: 0;
+    
 }
 .cart-remove button:hover {
     text-decoration: underline;
@@ -301,5 +298,5 @@ main {
 }
 .remake-grid {
     justify-content: flex-start;
-    gap: 35px;
+    gap: 20px;
 }
